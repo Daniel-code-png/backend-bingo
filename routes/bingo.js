@@ -35,4 +35,4 @@ router.post('/bingo/start', (req, res) => {
   res.status(200).json({ message: `Juego tipo ${type} iniciado correctamente` });
 });
 
-module.exports = route
+module.exports = router;
